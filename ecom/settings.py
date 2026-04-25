@@ -152,8 +152,14 @@ REST_FRAMEWORK = {
 }
 
 # CORS Settings
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = False
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://www.primaryorder.com",
+    "https://primaryorder.com",
+]
 
 # CSRF Settings
 CSRF_TRUSTED_ORIGINS = [
