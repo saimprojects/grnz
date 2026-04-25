@@ -163,10 +163,12 @@ CORS_ALLOWED_ORIGINS = [
 
 # CSRF Settings
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.railway.app',
-    'https://*.up.railway.app',
-    'http://localhost:3000',
-    'http://localhost:5173',
+    "https://*.railway.app",
+    "https://*.up.railway.app",
+    "https://www.primaryorder.com",
+    "https://primaryorder.com",
+    "http://localhost:3000",
+    "http://localhost:5173",
 ]
 
 # Default primary key
